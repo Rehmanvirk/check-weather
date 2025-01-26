@@ -1,24 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
 }
-body{
-    background: linear-gradient(150deg , rgb(159, 206, 245), rgb(12, 135, 216));
+
+body {
+    background: #35697e;
     color: white;
 }
-.card{
-    background: linear-gradient(135deg,rgb(132, 232, 250),rgb(21, 108, 190));
+
+.heading {
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.card {
+    background: linear-gradient(135deg, rgb(132, 232, 250), rgb(21, 108, 190));
     width: 90%;
     max-width: 500px;
-    margin: 50px auto;
+    margin: 30px auto;
     padding: 40px, 35px;
     border-radius: 10px;
     text-align: center;
     padding: 10px;
 }
-.search{
+
+.search {
     width: 100%;
     margin-top: 30px;
     padding: 10px;
@@ -26,18 +34,20 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.search input{
-height: 40px;
-border: none;
-outline: none;
-border-radius: 20px;
-padding: 5px 10px;
-margin: 0 20px;
-flex: 1;
-background: #dbfffc;
-cursor: text;
+
+.search input {
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 0 20px;
+    flex: 1;
+    background: #dbfffc;
+    cursor: text;
 }
-.search button{
+
+.search button {
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -47,47 +57,55 @@ cursor: text;
     cursor: pointer;
     outline: none;
 }
-.search button:hover{
+
+.search button:hover {
     background: #f6fcfb;
     width: 45px;
     height: 45px;
-    
+
 }
-.search button:active{
+
+.search button:active {
     background: #27bce9;
     width: 45px;
     height: 45px;
-    
+
 }
-.search button img{
+
+.search button img {
     width: 15px;
 }
-.error{
+
+.error {
     display: none;
     text-align: left;
     margin: 10px 30px;
     font-size: 14px;
 }
-.weather{
-  align-items: center;
-  justify-content: center;
-  display: none;
+
+.weather {
+    align-items: center;
+    justify-content: center;
+    display: none;
 }
 
-.weather-icon{
+.weather-icon {
     width: 160px;
     padding-top: 15px;
 }
-.temp{
+
+.temp {
     font-size: 80px;
     font-weight: 500;
 }
-.city{
+
+.city {
     font-size: 45px;
     font-weight: 400;
-    
+
 }
-.details{
+
+.details {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,16 +113,20 @@ cursor: text;
     margin-top: 10px;
 
 }
-.col{
+
+.col {
     display: flex;
     align-items: center;
     text-align: left;
 }
-.col img{
+
+.col img {
     width: 45px;
     margin-right: 10px;
 }
-.wind , .humidity{
+
+.wind,
+.humidity {
     font-size: 30px;
     margin-top: -6px;
 }
