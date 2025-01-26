@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #222;
+    background: linear-gradient(150deg , rgb(159, 206, 245), rgb(12, 135, 216));
     color: white;
 }
 .card{
