@@ -60,15 +60,15 @@ body {
 
 .search button:hover {
     background: #f6fcfb;
-    width: 45px;
-    height: 45px;
+    /* width: 45px;
+    height: 45px; */
 
 }
 
 .search button:active {
     background: #27bce9;
-    width: 45px;
-    height: 45px;
+    /* width: 45px;
+    height: 45px; */
 
 }
 
